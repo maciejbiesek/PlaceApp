@@ -1,0 +1,50 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <Button
+        android:id="@+id/show_button"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/object_height"
+        android:layout_alignParentTop="true"
+        android:background="@color/footer"
+        style="@style/SecondaryText"
+        android:text="@string/map_button" />
+
+    <fragment
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/map"
+        android:layout_below="@+id/show_button"
+        tools:context=".MapsActivity"
+        android:name="com.google.android.gms.maps.SupportMapFragment" />
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/object_height"
+        android:layout_alignParentBottom="true"
+        android:background="@color/footer" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/fb_name"
+            style="@style/SecondaryText"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true" />
+
+        <ImageView
+            android:layout_width="@dimen/fb_photo_size"
+            android:layout_height="@dimen/fb_photo_size"
+            android:id="@+id/fb_photo"
+            android:scaleType="centerCrop"
+            android:layout_marginLeft="@dimen/fb_footer_margin"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:layout_toRightOf="@id/fb_name"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>

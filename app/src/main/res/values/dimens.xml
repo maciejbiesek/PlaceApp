@@ -1,0 +1,16 @@
+<resources>
+    <dimen name="margin">100dp</dimen>
+    <dimen name="object_height">60dp</dimen>
+    <dimen name="fb_photo_size">30dp</dimen>
+    <dimen name="fb_footer_margin">20dp</dimen>
+
+    <dimen name="place_photo_size">80dp</dimen>
+    <dimen name="place_row_height">90dp</dimen>
+    <dimen name="small_margin">3dp</dimen>
+    <dimen name="small_padding">8dp</dimen>
+    <dimen name="textview_height">45dp</dimen>
+    <dimen name="small_height">20dp</dimen>
+    <dimen name="divider_height">0.2dp</dimen>
+    <dimen name="divider_margin">5dp</dimen>
+    <dimen name="place_photo_details">200dp</dimen>
+</resources>

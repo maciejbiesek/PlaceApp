@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Places</string>
+    <string name="facebook_app_id">1479759832327976</string>
+    <string name="google_map_id">AIzaSyCwVypFLqHfwbEcAN9UVr6DOuinMjh3qV8</string>
+
+    <string name="welcome_text">Witaj w Places! \nSprawdź, jakie ciekawe miejsca są blisko Ciebie!</string>
+    <string name="login_success">Zostałeś pomyślnie zalogowany!</string>
+    <string name="login_as">Zalogowany jako</string>
+    <string name="not_logged">Nie jesteś zalogowany</string>
+    <string name="server_connection">Połączenie z serwerem</string>
+    <string name="server_fail">Serwer zwrócił niepoprawne dane</string>
+    <string name="location_here">JESTEŚ TUTAJ</string>
+    <string name="map_button">POKAŻ MI MIEJSCA</string>
+
+    <string name="internet_problem">Połączenie z internetem</string>
+    <string name="internet_not_found">Brak połączenia z internetem. Sprawdź i spróbuj ponownie</string>
+
+    <string name="nex_button_text">Pokaż mi te miejsca</string>
+    <string name="details_send_email">Wyślij email</string>
+    <string name="details_google_it">Wyszukaj to</string>
+    <string name="details_navigate_to">Prowadź do</string>
+
+    <string name="sync_choose_app">Wyślij email za pomocą</string>
+    <string name="mail_title">Nowe miejsce</string>
+    <string name="mail_msg1">Cześć, właśnie odkryłem nowe miejsce, które nazywa się:</string>
+    <string name="mail_msg2">Możesz je znaleźć pod tym adresem:</string>
+    <string name="mail_msg3">Może spotkamy się tutaj?</string>
+
+    <string name="no_mail_dialog_title">Nie znaleziono konta pocztowego</string>
+    <string name="no_mail_dialog_msg">Skonfiguruj konto pocztowe aby móc wysłać e-mail</string>
+
+</resources>

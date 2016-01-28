@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Places</string>
+    <string name="facebook_app_id">1479759832327976</string>
+    <string name="google_map_id">AIzaSyCwVypFLqHfwbEcAN9UVr6DOuinMjh3qV8</string>
+
+    <string name="welcome_text">Welcome to Places. \nCheck all beautiful places around you!</string>
+    <string name="login_success">You have successfully logged in!</string>
+    <string name="logged_as">Logged as</string>
+    <string name="not_logged">You are not logged in</string>
+    <string name="server_connection">Connection to the server</string>
+    <string name="server_fail">Server returned an error</string>
+    <string name="location_here">YOU ARE HERE</string>
+    <string name="map_button">SHOW ME PLACES</string>
+
+    <string name="internet_problem">Internet connection</string>
+    <string name="internet_not_found">No internet connection, check it and try again</string>
+
+    <string name="nex_button_text">Show me these places</string>
+    <string name="details_send_email">Send email</string>
+    <string name="details_google_it">Google it</string>
+    <string name="details_navigate_to">Navigate</string>
+
+    <string name="sync_choose_app">Send email with</string>
+    <string name="mail_title">New place</string>
+    <string name="mail_msg1">Hello, I\'ve just found new place, which name is:</string>
+    <string name="mail_msg2">You can find it at:</string>
+    <string name="mail_msg3">Wanna meet at that place</string>
+
+    <string name="no_mail_dialog_title">No Mail Accounts</string>
+    <string name="no_mail_dialog_msg">Please set up a Mail account in order to send email</string>
+
+</resources>

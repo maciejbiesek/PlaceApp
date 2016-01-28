@@ -1,0 +1,42 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="@dimen/place_row_height">
+
+    <ImageView
+        android:id="@+id/place_photo"
+        android:layout_marginTop="@dimen/small_margin"
+        android:layout_alignParentLeft="true"
+        android:layout_width="@dimen/place_photo_size"
+        android:layout_height="@dimen/place_photo_size"
+        android:scaleType="centerCrop"/>
+
+    <TextView
+        android:id="@+id/place_name"
+        style="@style/PrimaryText"
+        android:layout_toRightOf="@+id/place_photo"
+        android:layout_width="fill_parent"
+        android:gravity="center_vertical"
+        android:paddingLeft="@dimen/small_padding"
+        android:layout_height="@dimen/textview_height"/>
+
+    <TextView
+        android:id="@+id/place_address"
+        style="@style/SecondaryText"
+        android:paddingLeft="@dimen/small_padding"
+        android:layout_toRightOf="@+id/place_photo"
+        android:layout_below="@+id/place_name"
+        android:layout_width="fill_parent"
+        android:gravity="center_vertical"
+        android:layout_height="@dimen/small_height"/>
+
+    <TextView
+        android:id="@+id/place_distance"
+        style="@style/SecondaryText"
+        android:paddingLeft="@dimen/small_padding"
+        android:layout_toRightOf="@+id/place_photo"
+        android:layout_below="@+id/place_address"
+        android:layout_width="fill_parent"
+        android:gravity="center_vertical"
+        android:layout_height="@dimen/small_height"/>
+
+</RelativeLayout>
